@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/y-ogura/go-practice/answers/sectionone"
+)
 
 func main() {
-	fmt.Println(q1-50.Q1())
+	// 出力確認用
+	fmt.Println(sectionone.Q1())
 }
