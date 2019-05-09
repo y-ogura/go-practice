@@ -1,3 +1,27 @@
+# go-practice
+
+## Installation
+```
+mkdir $GOPATH/src/github.com/y-ogura
+cd $GOPATH/src/gihub.com/y-ogura
+git clone https://github.com/y-ogura/go-practice.git
+```
+
+## Overview
+/answers/{sectionName}に各問題のファイルがあります。    
+こちらのファイルに回答を記述してください。
+
+下に記載されている回答はあくまで1つの記述方法です。
+
+プルリク歓迎です。
+
+## 回答確認
+
+```
+cd answers/{sectionName}
+go test -run {functionName}
+```
+
 ## 問題
 <details><summary>問1~50</summary>
 
