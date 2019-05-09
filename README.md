@@ -25,7 +25,7 @@ go test -run {functionName}
 ## 問題
 <details><summary>問1~50</summary>
 
-**問1**
+**問1**    
 `a := map[string]string{"a": "a"}`と`b := map[string]string{"b": "b"}`をマージしたｃを出力してください
 > eg map[a:a b:b]
 
