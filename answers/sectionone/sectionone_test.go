@@ -12,3 +12,9 @@ func TestQ1(t *testing.T) {
 	res := sectionone.Q1()
 	assert.Equal(t, expect, res)
 }
+
+func TestQ2(t *testing.T) {
+	expect := []string{"dd", "ee", "ff"}
+	res := sectionone.Q2()
+	assert.Equal(t, expect, res)
+}

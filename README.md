@@ -42,8 +42,24 @@ for key, val := range a {
 for key, val := range b {
     c[key] = val
 }
-fmt.Println(c)
+
+return c
 ```
+
+**問2**    
+```go
+arry := []string{"aa", "bb", "cc", "dd", "ee", "ff", "gg"}
+```
+のdd,ee,ffを新たな配列として返してください
+> e.g `[dd ee ff]`
+
+<details><summary>回答</summary>
+
+```go
+arry := []string{"aa", "bb", "cc", "dd", "ee", "ff", "gg"}
+return arry[3:6]
+```
+
 
 </details>
 
