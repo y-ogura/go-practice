@@ -46,6 +46,8 @@ for key, val := range b {
 return c
 ```
 
+</details>
+
 **問2**    
 ```go
 arry := []string{"aa", "bb", "cc", "dd", "ee", "ff", "gg"}
